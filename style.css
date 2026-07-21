@@ -1,5 +1,5 @@
 
-        *{
+        {
             margin:0;
             padding:0;
             box-sizing:border-box;
@@ -61,3 +61,22 @@
             }
         }
 
+.hero-image{
+
+width:300px;
+
+border-radius:20px;
+
+margin-top:40px;
+
+box-shadow:0 20px 40px rgba(0,0,0,.18);
+
+transition:.5s;
+
+}
+
+.hero-image:hover{
+
+transform:scale(1.03);
+
+}
